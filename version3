@@ -94,7 +94,7 @@ def save_image(img_path, dir, img):
     file_name = img_path.replace("\\","/").split(".")[0].split("/")[-1]
     cv2.imwrite("{}{}/{}.{}".format(IMAGEPATH, dir, file_name, "jpg"), img)
 
-def remove_images():
+def remove_onefile():
     """
     onefile上に入っているimage,bgsub,grayファイル内の写真を削除する
     """
@@ -168,4 +168,4 @@ def analize_onefile():
         cv2.imwrite(IMAGEPATH0+'/result/result.jpg', result_img)
         
         print(file + ' completed!!')
-        remove_images()
+        remove_onefile()
