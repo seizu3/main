@@ -1,7 +1,6 @@
 import glob
 import re
 import cv2
-import csv
 import os
 
 VIDEOPATH = 自分のパス
