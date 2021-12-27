@@ -145,9 +145,7 @@ def analize_onefile():
             r = 255
         else:
             print('色がありません')
-        #b = int(input('input B number'))
-        #g = int(input('input G number'))
-        #r = int(input('input R number'))
+
 
         save_frames(file,IMAGEPATH)
         backgroundsub()
