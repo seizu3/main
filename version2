@@ -116,7 +116,6 @@ if __name__=="__main__":
         grayscale(path)
 
     location_list = template_matching()
-    print(type(location_list))
     print("画像で出力:0、CSVで出力:1")
     output = input()
     if int(output) == 0:
