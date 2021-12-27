@@ -4,9 +4,9 @@ import cv2
 import csv
 import os
 
-VIDEOPATH = 自分のパス
-IMAGEPATH = 自分のパス
-TEMPLATEPATH = 自分のパス+ tem.jpg
+VIDEOPATH = "自分のパス"
+IMAGEPATH = "自分のパス"
+TEMPLATEPATH = "自分のパス+ tem.jpg"
 
 def save_frames(video_path, image_dir):
     cap = cv2.VideoCapture(video_path)
